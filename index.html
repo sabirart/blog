@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SabirBlog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="images/ai_image.png">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-wrapper"> <!-- Container for blur effect -->
+  <div class="logo">
+    <a href="#home">SabirBlog</a>
+    <div class="ai-badge">AI-Powered</div>
+  </div>
+</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#category/AI">AI</a></li>
+                    <li><a href="#category/Programming">Programming</a></li>
+                    <li><a href="#category/Graphic Design">Graphic Design</a></li>
+                    <li><a href="#category/Reviews">Reviews</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+             <div class="header-actions">
+                <button class="save-btn-header" aria-label="Saved Articles"><i class="far fa-bookmark"></i></button>
+                <button class="search-btn" aria-label="Search">
+                    <i class="fas fa-search icon-search"></i>
+                    <i class="fas fa-times icon-close"></i>
+                </button>
+                <button class="menu-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-overlay">
+        <button class="close-search" aria-label="Close search"><i class="fas fa-times"></i></button>
+        <div class="container">
+            <form class="search-form">
+                <input type="text" placeholder="Search articles..." aria-label="Search articles">
+                <button type="submit" aria-label="Submit search"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="search-suggestions">
+                Try: <span>AI trends 2024</span> or <span>Best JavaScript frameworks</span>
+            </div>
+            <div class="search-results-grid"></div>
+        </div>
+    </div>
+
+    <main id="main-content">
+        <!-- Dynamic content will be injected here -->
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About SabirBlog</h4>
+                    <p>Your source for AI-powered tech insights, programming tutorials, and gadget reviews.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#category/Artificial Intelligence">Artificial Intelligence</a></li>
+                        <li><a href="#category/Programming">Programming</a></li>
+                        <li><a href="#category/Web Development">Web Development</a></li>
+                        <li><a href="#category/Mobile Apps">Mobile Apps</a></li>
+                        <li><a href="#category/Gadgets & Tech">Gadgets & Tech</a></li>
+                        <li><a href="#category/Graphic Design">Graphic Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#write">Write for Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Subscribe</h4>
+                    <p>Get the latest posts delivered right to your inbox.</p>
+                    <form class="footer-newsletter">
+                        <input type="email" placeholder="Your email" aria-label="Email for newsletter">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SabirBlog. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                    <a href="#sitemap">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+       <button class="chatbot-toggle" aria-label="Toggle chatbot">
+        <i class="fas fa-robot"></i>
+    </button>
+    <div class="chatbot-widget">
+        <div class="chatbot-header">
+            <div class="chatbot-avatar"><i class="fas fa-robot"></i></div>
+            <div class="chatbot-info">
+                <h4>TechBot</h4>
+                <p>AI Assistant</p>
+            </div>
+            <button class="chatbot-close" aria-label="Close chatbot">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-messages"></div>
+        <div class="quick-replies">
+            <button class="quick-reply">Suggest articles</button>
+            <button class="quick-reply">Search the blog</button>
+            <button class="quick-reply">Latest tech news</button>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" placeholder="Type your message..." aria-label="Chatbot input">
+            <button class="send-btn" aria-label="Send message">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="js/chatbot.js"></script>
+    <script src="js/posts.js"></script>
+    <script src="js/regular.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/homepage.js"></script>
+    <script src="js/homepage.js"></script>
+
+</body>
+</html>
