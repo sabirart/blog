@@ -17,7 +17,7 @@ const blogPosts = [
             </ul>
             <h3>Real-World Impact</h3>
             <p>AI is enabling breakthroughs in personalized medicine, predictive analytics for finance, and sustainable supply chain management. Companies are leveraging AI to stay competitive while addressing ethical concerns.</p>
-            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/6Z6tME8aIck" frameborder="0" allowfullscreen></iframe></p>
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/5a9f0eIVhF0" frameborder="0" allowfullscreen></iframe></p>
             <h3>Conclusion</h3>
             <p>The AI landscape in 2025 is dynamic and transformative, blending innovation with responsibility to shape a future where technology serves humanity.</p>
         `,
@@ -30,7 +30,7 @@ const blogPosts = [
         category: "Technology",
         date: "June 04, 2025",
         readTime: "6 min read",
-        image: "https://images.unsplash.com/photo-1626379730837-104de6e01f92?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://imageio.forbes.com/specials-images/imageserve/63c9ca0a5317481ef6922d8b/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
         content: `
             <h2>Introduction to Quantum Computing</h2>
             <p>Quantum computing is revolutionizing technology in 2025, offering unparalleled computational power to tackle complex problems beyond classical computers’ capabilities.</p>
@@ -42,7 +42,7 @@ const blogPosts = [
             </ul>
             <h3>Real-World Impact</h3>
             <p>Quantum computing is accelerating simulations in material science, optimizing global supply chains, and enhancing AI model training. Companies like IBM and Google are making quantum platforms more accessible.</p>
-            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/JhHMJCUmRGE" frameborder="0" allowfullscreen></iframe></p>
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/G9MqY70Dcuc" frameborder="0" allowfullscreen></iframe></p>
             <h3>Conclusion</h3>
             <p>Quantum computing in 2025 is unlocking new possibilities, driving innovation across industries while paving the way for future technological breakthroughs.</p>
         `,
@@ -55,7 +55,7 @@ const blogPosts = [
         category: "Graphic Design",
         date: "June 04, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1618005182380-5d8b4a7e015f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://www.simplilearn.com/ice9/free_resources_article_thumb/mobile_app_development_tools.jpg",
         content: `
             <h2>Introduction to Graphic Design Trends</h2>
             <p>In 2025, graphic design blends cutting-edge technology with creative expression to captivate audiences and enhance brand storytelling.</p>
@@ -70,7 +70,7 @@ const blogPosts = [
             <h3>Impact on Industries</h3>
             <p>Minimalist designs boost website engagement, 3D and AR transform e-commerce, and sustainable visuals align with consumer values.</p>
             <p><img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Graphic Design Example 2025"></p>
-            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/1zO1oW2G8HQ" frameborder="0" allowfullscreen></iframe></p>
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/KFULlIuqcsA" frameborder="0" allowfullscreen></iframe></p>
             <h3>Conclusion</h3>
             <p>The graphic design landscape in 2025 is vibrant, driven by technology and meaningful creativity.</p>
         `,
@@ -83,7 +83,7 @@ const blogPosts = [
         category: "Graphic Design",
         date: "June 04, 2025",
         readTime: "8 min read",
-        image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://softbenz.com/media/blog/blog-1642056190.png",
         content: `
             <h2>Introduction to AI-Driven Design</h2>
             <p>AI is redefining graphic design in 2025 by enhancing efficiency, creativity, and accessibility with collaborative tools.</p>
@@ -97,7 +97,7 @@ const blogPosts = [
             </ul>
             <h3>Benefits and Challenges</h3>
             <p>AI tools save time, personalize designs, and democratize creativity but raise concerns about originality and copyright.</p>
-            <p><img src="https://images.unsplash.com/photo-1620712943543-bcc4686e021f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI-Driven Design Example"></p>
+            <p><img src="https://www.zilliondesigns.com/blog/wp-content/uploads/Ecommerce-Business.png" alt="AI-Driven Design Example"></p>
             <p><iframe width="560" height="315" src="https://www.youtube.com/embed/9u9vW7W3i9k" frameborder="0" allowfullscreen></iframe></p>
             <h3>Conclusion</h3>
             <p>AI-driven tools are transforming design in 2025, balancing efficiency with human ingenuity for innovative results.</p>
@@ -111,7 +111,7 @@ const blogPosts = [
         category: "Mobile Apps",
         date: "May 20, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1547658719-600550f3c91e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://www.wisestamp.com/wp-content/uploads/2022/12/mobile-app-development-companies.jpeg",
         content: `
             <h2>Introduction to Mobile App Development</h2>
             <p>Building mobile apps in 2025 demands innovation, user-centric design, and robust performance to stand out in a competitive market.</p>
@@ -137,7 +137,7 @@ const blogPosts = [
         category: "Gadgets & Tech",
         date: "June 15, 2025",
         readTime: "6 min read",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://media.assettype.com/analyticsinsight/2024-09-30/spwciswt/The-Most-Anticipated-Tech-Gadgets-of-2025.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
         content: `
             <h2>Tech Innovations in 2025</h2>
             <p>2025 introduces groundbreaking gadgets that blend functionality with futuristic design, transforming daily life.</p>
@@ -162,7 +162,7 @@ const blogPosts = [
         category: "Programming",
         date: "July 10, 2025",
         readTime: "8 min read",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=806321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://miro.medium.com/v2/resize:fit:1400/1*LxP1qwPjHE1CDFmLBh3bxQ.jpeg",
         content: `
             <h2>Python’s Role in Data Science</h2>
             <p>Python remains the cornerstone of data science in 2025, offering versatility and a robust ecosystem for analysis and visualization.</p>
@@ -188,7 +188,7 @@ const blogPosts = [
         category: "Web Development",
         date: "Feb 10, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1551650977-0e111c3eacb8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://happyaddons.com/wp-content/uploads/2021/06/best-web-development-tools.png",
         content: `
             <h2>Introduction to Web Development</h2>
             <p>Web development in 2025 is driven by performance, accessibility, and immersive user experiences.</p>
@@ -213,7 +213,7 @@ const blogPosts = [
         category: "Cybersecurity",
         date: "Mar 01, 2025",
         readTime: "6 min read",
-        image: "https://images.unsplash.com/photo-1563986768494-4dee7b9a552f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://asimily.com/wp-content/uploads/2022/03/Top-10-Emerging-Challenges-of-Cyber-Security-in-2021-Asimily.png",
         content: `
             <h2>Introduction to Cybersecurity</h2>
             <p>Cybersecurity in 2025 faces new challenges as digital transformation accelerates and threats evolve.</p>
@@ -238,7 +238,7 @@ const blogPosts = [
         category: "Software Development",
         date: "Apr 15, 2025",
         readTime: "6 min read",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://miro.medium.com/v2/resize:fit:1200/1*HV5MSBX2Wg1A4H44cl0BVQ.png",
         content: `
             <h2>Introduction to Low-Code</h2>
             <p>Low-code platforms in 2025 are empowering businesses to build applications with minimal coding expertise.</p>
@@ -263,7 +263,7 @@ const blogPosts = [
         category: "Education Technology",
         date: "May 01, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1509062529660-3c9f2d928b12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yYOl6L5QvvL5wZPtUMNb_nleamR9NRquqQ&s",
         content: `
             <h2>Introduction to AR in Education</h2>
             <p>Augmented Reality (AR) is transforming education in 2025 by creating immersive, interactive learning experiences.</p>
@@ -288,7 +288,7 @@ const blogPosts = [
         category: "Blockchain",
         date: "June 20, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1639322537228-f714d3e815f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://imageio.forbes.com/specials-images/imageserve/6075b9684037ea37cf901b2e/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds",
         content: `
             <h2>Introduction to Blockchain</h2>
             <p>Blockchain in 2025 extends far beyond cryptocurrency, enabling secure, transparent solutions across industries.</p>
@@ -313,7 +313,7 @@ const blogPosts = [
         category: "Cloud Computing",
         date: "July 05, 2025",
         readTime: "6 min read",
-        image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://imageio.forbes.com/specials-images/imageserve/603f9ed5903dc7550131675b/Cloud-computing-concept--Communication-network-/960x0.jpg?height=399&width=711&fit=bounds",
         content: `
             <h2>Introduction to Cloud Computing</h2>
             <p>Cloud computing in 2025 is driving scalability, flexibility, and innovation for businesses worldwide.</p>
@@ -338,7 +338,7 @@ const blogPosts = [
         category: "Internet of Things",
         date: "Aug 10, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://lvivity.com/wp-content/uploads/2020/10/smart-city.jpg",
         content: `
             <h2>Introduction to IoT in Smart Cities</h2>
             <p>IoT is transforming urban landscapes in 2025, creating smarter, more efficient cities.</p>
@@ -363,7 +363,7 @@ const blogPosts = [
         category: "AI",
         date: "Sep 01, 2025",
         readTime: "8 min read",
-        image: "https://images.unsplash.com/photo-1576091160550-2173fdabea48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://elearn.nptel.ac.in/wp-content/uploads/2024/08/Machine-Learning-for-Healthcare.jpg",
         content: `
             <h2>Introduction to ML in Healthcare</h2>
             <p>Machine learning is revolutionizing healthcare in 2025 with predictive diagnostics and personalized care.</p>
@@ -438,7 +438,7 @@ const blogPosts = [
         category: "Software Development",
         date: "Dec 01, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://t2informatik.de/en/wp-content/uploads/sites/2/2023/01/devops.png",
         content: `
             <h2>Introduction to DevOps</h2>
             <p>DevOps in 2025 streamlines software development with collaboration and automation.</p>
@@ -463,7 +463,7 @@ const blogPosts = [
         category: "UI/UX",
         date: "Jan 10, 2026",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1551288049-b1b23b21b7e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZM5AyweCR25OZAThqh_yzjOgLPm4PV2qO9Ths-IIWPiIo-m7Lmb37qpO4nhZ4c_q8S0&usqp=CAU",
         content: `
             <h2>Introduction to UI/UX</h2>
             <p>UI/UX design in 2025 prioritizes seamless, personalized user experiences.</p>
@@ -488,7 +488,7 @@ const blogPosts = [
         category: "Technology",
         date: "Feb 15, 2025",
         readTime: "6 min read",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://www.icomera.com/wp-content/uploads/2024/01/Edge-Computing-Article-Header.jpg",
         content: `
             <h2>Introduction to Edge Computing</h2>
             <p>Edge computing in 2025 processes data closer to its source, reducing latency and enhancing performance.</p>
@@ -513,7 +513,7 @@ const blogPosts = [
         category: "Gadgets & Tech",
         date: "Mar 20, 2025",
         readTime: "6 min read",
-        image: "https://images.unsplash.com/photo-1559056199-6a48e8b9e9b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://blog.mymanu.com/wp-content/uploads/2022/06/WEARABLES.png",
         content: `
             <h2>Introduction to Wearable Tech</h2>
             <p>Wearable technology in 2025 is transforming health, fitness, and connectivity.</p>
@@ -538,7 +538,7 @@ const blogPosts = [
         category: "AI",
         date: "Apr 25, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1551288049-b1b23b21b7e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://cdn.prod.website-files.com/65a65d597624a0885ef7e135/66c4879a3f2561deb7a7cb70_AD_4nXdN_XhLpqS5DwN7NMKrF1HIXjqtzIgdFF_8kW2DoZzOWmdZupkSu097F2exEaQYrN4DyAircLBysX6SLqz10_m20SWaZ9JFJpeeUJUGTdSJev5sAluJplQYtVESmJA6Dz5_ME9oZ54roKULYp6l6Ik08w.png",
         content: `
             <h2>Introduction to AI in Finance</h2>
             <p>AI is revolutionizing financial services in 2025 with predictive analytics and automation.</p>
@@ -563,7 +563,7 @@ const blogPosts = [
         category: "Gaming",
         date: "May 30, 2025",
         readTime: "6 min read",
-        image: "https://images.unsplash.com/photo-1593305841991-2a1b7d7e3c44?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://img.freepik.com/premium-photo/young-girl-engaging-virtual-reality-experience-with-neon-lights-vr-headset-ai_894067-1578.jpg?w=360",
         content: `
             <h2>Introduction to VR in Gaming</h2>
             <p>Virtual Reality (VR) is transforming gaming in 2025 with immersive, interactive experiences.</p>
@@ -588,7 +588,7 @@ const blogPosts = [
         category: "Software Development",
         date: "June 25, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://resource.midasuser.com/hubfs/MIDAS%20Open%20API%20%28Application%20Programming%20Interface%29_shutterstock.jpg",
         content: `
             <h2>Introduction to APIs</h2>
             <p>APIs in 2025 are the backbone of interconnected software systems.</p>
@@ -613,7 +613,7 @@ const blogPosts = [
         category: "AI",
         date: "July 15, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1503428593589-fde48c37d45f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://supersmart.me/wp-content/uploads/2024/08/AI-in-retail-1024x585.jpeg",
         content: `
             <h2>Introduction to AI in Retail</h2>
             <p>AI is transforming retail in 2025 with personalized shopping and operational efficiency.</p>
@@ -638,7 +638,7 @@ const blogPosts = [
         category: "Cybersecurity",
         date: "Aug 20, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1563986768494-4dee7b9a552f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://www.ioscm.com/wp-content/uploads/2021/05/digital-privacy-1024x585.jpg",
         content: `
             <h2>Introduction to Data Privacy</h2>
             <p>Data privacy in 2025 is critical as digital interactions grow.</p>
@@ -663,7 +663,7 @@ const blogPosts = [
         category: "E-Commerce",
         date: "Sep 10, 2025",
         readTime: "6 min read",
-        image: "https://images.unsplash.com/photo-1503428593589-fde48c37d45f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://dosvl4r8ie87v.cloudfront.net/uploads/posts/11012023_032510_09262023_043755_ecommerce-trends.webp",
         content: `
             <h2>Introduction to E-Commerce</h2>
             <p>E-commerce in 2025 is driven by AI, AR, and seamless user experiences.</p>
@@ -688,7 +688,7 @@ const blogPosts = [
         category: "Robotics",
         date: "Oct 15, 2025",
         readTime: "7 min read",
-        image: "https://images.unsplash.com/photo-1564325724739-dae0c7f61ab0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://www.assemblymag.com/ext/resources/Issues/2023/nov/asb1123lines1-forweb.jpg?1699969804",
         content: `
             <h2>Introduction to Robotics</h2>
             <p>Robotics in 2025 is transforming manufacturing with automation and precision.</p>
@@ -700,7 +700,7 @@ const blogPosts = [
             </ul>
             <h3>Benefits</h3>
             <p>Robotics improves efficiency, reduces costs, and enhances safety.</p>
-            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/5iV_hB08e2s" frameborder="0" allowfullscreen></iframe></p>
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/bU1kjP8KIAw" frameborder="0" allowfullscreen></iframe></p>
             <h3>Conclusion</h3>
             <p>Robotics is revolutionizing manufacturing with innovative automation.</p>
         `,
@@ -713,7 +713,7 @@ const blogPosts = [
         category: "Data Science",
         date: "Nov 20, 2025",
         readTime: "8 min read",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: "https://predikdata.com/wp-content/uploads/2022/11/big-data-2.png",
         content: `
             <h2>Introduction to Big Data</h2>
             <p>Big data in 2025 drives insights and decision-making across industries.</p>
@@ -750,7 +750,7 @@ const blogPosts = [
             </ul>
             <h3>Impact</h3>
             <p>Autonomous vehicles reduce accidents and improve mobility.</p>
-            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/AAtADZ3vknQ" frameborder="0" allowfullscreen></iframe></p>
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/ruKJCiAOmfg" frameborder="0" allowfullscreen></iframe></p>
             <h3>Conclusion</h3>
             <p>Autonomous vehicles are shaping the future of transportation.</p>
         `,
