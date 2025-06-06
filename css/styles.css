@@ -124,9 +124,9 @@ img {
         .ai-tag {
             position: relative;
             font-size: 14px;
-            padding: 4px 12px;
+            padding: 2px 26px;
             border-radius: 20px;
-            font-weight: 500;
+            font-weight: 400;
             color: white;
             user-select: none;
             overflow: hidden;
@@ -156,7 +156,7 @@ img {
 
         @keyframes borderFlow {
             0% { background-position: 0% 50%; }
-            100% { background-position: 400% 50%; }
+            100% { background-position: 300% 50%; }
         }
 
         @keyframes fillGradient {
