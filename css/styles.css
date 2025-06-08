@@ -533,7 +533,7 @@ img {
     font-size: 10px;
     width: 18px;
     height: 18px;
-    border-radius: 10%;
+    border-radius: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -675,19 +675,18 @@ img {
 
 .scroll-top {
     position: fixed;
-    bottom: 20px;
-    right: 100px;
+    bottom: 24px;
+    right: 110px;
     background: var(--primary-color);
     color: var(--light-color);
     border: none;
-    border-radius: 10%;
+    border-radius: 20%;
     width: 40px;
     height: 40px;
     display: grid;
     place-items: center;
     font-size: 18px;
     cursor: pointer;
-    z-index: 9997;
     opacity: 0;
     visibility: hidden;
     transform: translateY(20px);
@@ -711,6 +710,7 @@ img {
 
 .featured-posts {
     padding: 60px 0 40px;
+    user-select: none;
 }
 
 .section-title {
@@ -813,7 +813,7 @@ img {
     height: 40px;
     background-color: white;
     border: none;
-    border-radius: 10%;
+    border-radius: 20%;
     box-shadow: var(--box-shadow);
     display: flex;
     align-items: center;
@@ -1109,7 +1109,7 @@ img {
     height: 48px;
     background-color: white;
     color: #2563eb;
-    border-radius: 10%;
+    border-radius: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1240,7 +1240,7 @@ img {
     font-size: 16px;
     width: 42px;
     height: 42px;
-    border-radius: 10%;
+    border-radius: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1255,14 +1255,14 @@ img {
 
 .chatbot-toggle {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 24px;
+    right: 30px;
     width: 60px;
     height: 60px;
     background-color: #2563eb;
     color: white;
     border: none;
-    border-radius: 10%;
+    border-radius: 20%;
     font-size: 26px;
     cursor: pointer;
     box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3);
@@ -1285,7 +1285,7 @@ img {
     color: white;
     width: 20px;
     height: 20px;
-    border-radius: 10%;
+    border-radius: 20%;
     font-size: 12px;
     display: flex;
     align-items: center;
@@ -1311,7 +1311,7 @@ img {
     width: 8px;
     height: 8px;
     background-color: #0c4a6e;
-    border-radius: 10%;
+    border-radius: 20%;
     animation: blink 1.4s infinite both;
 }
 
@@ -1381,7 +1381,7 @@ img {
 .share-links a {
     width: 48px;
     height: 48px;
-    border-radius: 10%;
+    border-radius: 20%;
     display: grid;
     place-items: center;
     font-size: 22px;
@@ -1498,9 +1498,20 @@ img {
     opacity: 0.6;
 }
 
+:root {
+    /* Light color palette */
+    --bg-color: #eff7ff; /* Off-white background */
+    --text-color: #1f2937; /* Dark gray for readability */
+    --gray-color: #4b5563; /* Medium gray for secondary text */
+    --primary-color: #2563eb; /* Professional blue for accents */
+    --primary-hover: #1d4ed8; /* Darker blue for hover */
+    --border-color: #e5e7eb; /* Light gray border */
+    --input-bg: #ffffff; /* White input background */
+}
+
 .footer {
-    background-color: var(--dark-color);
-    color: #fff;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     padding: 60px 20px 30px;
     font-family: 'Segoe UI', sans-serif;
 }
@@ -1517,7 +1528,7 @@ img {
     margin-bottom: 20px;
     position: relative;
     padding-bottom: 10px;
-    color: #fff;
+    color: var(--text-color);
 }
 
 .footer-col h4::after {
@@ -1531,7 +1542,7 @@ img {
 }
 
 .footer-col p {
-    color: #94a3b8;
+    color: var(--gray-color);
     font-size: 15px;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -1548,14 +1559,14 @@ img {
 }
 
 .footer-col ul a {
-    color: #94a3b8;
+    color: var(--gray-color);
     font-size: 15px;
     text-decoration: none;
     transition: color 0.3s ease, padding-left 0.3s ease;
 }
 
 .footer-col ul a:hover {
-    color: #fff;
+    color: var(--text-color);
     padding-left: 6px;
 }
 
@@ -1566,7 +1577,7 @@ img {
 }
 
 .footer-social a {
-    color: #fff;
+    color: var(--text-color);
     font-size: 18px;
     transition: color 0.3s ease;
 }
@@ -1589,11 +1600,13 @@ img {
     font-size: 15px;
     outline: none;
     max-width: 64% !important;
+    background-color: var(--input-bg);
+    color: var(--text-color);
 }
 
 .footer-newsletter button {
     background-color: var(--primary-color);
-    color: #fff;
+    color: #ffffff;
     border: none;
     padding: 0 20px;
     border-radius: 0 6px 6px 0;
@@ -1613,9 +1626,9 @@ img {
     align-items: center;
     gap: 10px;
     padding-top: 30px;
-    border-top: 1px solid #334155;
+    border-top: 1px solid var(--border-color);
     font-size: 14px;
-    color: #94a3b8;
+    color: var(--gray-color);
 }
 
 .footer-links {
@@ -1625,13 +1638,13 @@ img {
 }
 
 .footer-links a {
-    color: #94a3b8;
+    color: var(--gray-color);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: #fff;
+    color: var(--text-color);
 }
 
 .about-section {
