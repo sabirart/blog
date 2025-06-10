@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Blog Post - SabirBlog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/blog-creator.css">
+  <link rel="stylesheet" href="css/dark-theme-2.css">
+  <link rel="stylesheet" href="css/topbar.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo-wrapper">
+        <div class="logo">
+          <a href="index.html">SabirBlog</a>
+          <div class="ai-badge">AI-Powered</div>
+           <button class="theme-toggle" aria-label="Toggle Theme" style="display: none;">  </button>
+        </div>
+      </div>
+    </div>
+  </header>
+ 
+  <div class="blog-creator-container">
+    <aside class="progress-bar" aria-label="Blog creation progress">
+      <div class="progress-step" data-step="1" role="button" tabindex="0" aria-label="Step 1: Your Info">
+        <span class="step-number">1</span>
+        <span class="step-label">Your Info</span>
+      </div>
+      <div class="progress-step" data-step="2" role="button" tabindex="0" aria-label="Step 2: Blog Details">
+        <span class="step-number">2</span>
+        <span class="step-label">Blog Details</span>
+      </div>
+      <div class="progress-step" data-step="3" role="button" tabindex="0" aria-label="Step 3: Write Content">
+        <span class="step-number">3</span>
+        <span class="step-label">Write Content</span>
+      </div>
+      <div class="progress-step" data-step="4" role="button" tabindex="0" aria-label="Step 4: Add References">
+        <span class="step-number">4</span>
+        <span class="step-label">Add References</span>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <form id="blog-creator-form">
+        <section class="form-section step active" data-step="1" aria-labelledby="step1-title">
+          <h2 id="step1-title">Tell Us About Yourself</h2>
+          <p class="section-info">Let readers know who you are. Only your name is required.</p>
+          <div class="form-group">
+            <label for="creator-name">Your Name *</label>
+            <input type="text" id="creator-name" name="creator-name" required aria-describedby="creator-name-error">
+            <span id="creator-name-error" class="error-message" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="creator-email">Email (Optional)</label>
+            <input type="email" id="creator-email" name="creator-email" aria-describedby="creator-email-error">
+            <span id="creator-email-error" class="error-message" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="creator-social">Social Media (Optional)</label>
+            <input type="url" id="creator-social" name="creator-social" placeholder="e.g., https://x.com/username" aria-describedby="creator-social-error">
+            <span id="creator-social-error" class="error-message" role="alert"></span>
+          </div>
+          <div class="form-actions">
+            <button type="button" class="next-btn" aria-label="Go to Blog Details">Next <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </section>
+
+        <section class="form-section step" data-step="2" aria-labelledby="step2-title">
+          <h2 id="step2-title">Blog Details</h2>
+          <p class="section-info">Give your blog a title, category, and an optional image.</p>
+          <div class="form-group">
+            <label for="blog-title">Blog Title *</label>
+            <input type="text" id="blog-title" name="blog-title" required aria-describedby="blog-title-error">
+            <span id="blog-title-error" class="error-message" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="blog-category">Category *</label>
+            <select id="blog-category" name="blog-category" required aria-describedby="blog-category-error">
+              <option value="" disabled selected>Choose a category</option>
+              <option value="ai">Artificial Intelligence</option>
+              <option value="programming">Programming</option>
+              <option value="design">Graphic Design</option>
+              <option value="mobile">Mobile Apps</option>
+              <option value="tech">Gadgets & Tech</option>
+              <option value="other">Other</option>
+            </select>
+            <span id="blog-category-error" class="error-message" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="blog-image">Thumbnail Image (Optional)</label>
+            <button type="button" class="upload-btn" onclick="document.getElementById('blog-image').click()">Upload Image <i class="fas fa-upload"></i></button>
+            <input type="file" id="blog-image" name="blog-image" accept="image/*" hidden aria-describedby="blog-image-error">
+            <div id="image-preview" class="image-preview"></div>
+            <span id="blog-image-error" class="error-message" role="alert"></span>
+          </div>
+          <div class="form-actions">
+            <button type="button" class="prev-btn" aria-label="Go back to Your Info">Back <i class="fas fa-arrow-left"></i></button>
+            <button type="button" class="next-btn" aria-label="Go to Write Content">Next <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </section>
+
+        <section class="form-section step" data-step="3" aria-labelledby="step3-title">
+          <h2 id="step3-title">Write Your Content</h2>
+          <p class="section-info">Use the editor below to create your blog post. Be creative!</p>
+          <div class="form-group">
+            <div class="rich-text-toolbar">
+          <button type="button" class="format-btn" data-command="bold" title="Bold"><i class="fas fa-bold"></i></button>
+          <button type="button" class="format-btn" data-command="italic" title="Italic"><i class="fas fa-italic"></i></button>
+          <button type="button" class="format-btn" data-command="underline" title="Underline"><i class="fas fa-underline"></i></button>
+          <button type="button" class="format-btn" data-command="createLink" title="Insert Link"><i class="fas fa-link"></i></button>
+          <button type="button" class="format-btn" data-command="insertImage" title="Insert Image"><i class="fas fa-image"></i></button>
+          <button type="button" class="format-btn" data-command="formatBlock:h1" title="Heading 1"><i class="fas fa-heading"></i> 1</button>
+          <button type="button" class="format-btn" data-command="formatBlock:h2" title="Heading 2"><i class="fas fa-heading"></i> 2</button>
+          <button type="button" class="format-btn" data-command="justifyLeft" title="Align Left"><i class="fas fa-align-left"></i></button>
+          <button type="button" class="format-btn" data-command="justifyCenter" title="Align Center"><i class="fas fa-align-center"></i></button>
+          <button type="button" class="format-btn" data-command="justifyRight" title="Align Right"><i class="fas fa-align-right"></i></button>
+          <button type="button" class="format-btn" data-command="insertUnorderedList" title="Bullet List"><i class="fas fa-list-ul"></i></button>
+          <button type="button" class="format-btn" data-command="insertOrderedList" title="Numbered List"><i class="fas fa-list-ol"></i></button>
+        </div>
+            <div id="blog-content" class="rich-text-editor" contenteditable="true" placeholder="Write your blog content here..." aria-describedby="blog-content-error"></div>
+            <span id="blog-content-error" class="error-message" role="alert"></span>
+          </div>
+          <div class="form-actions">
+            <button type="button" class="prev-btn" aria-label="Go back to Blog Details">Back <i class="fas fa-arrow-left"></i></button>
+            <button type="button" class="next-btn" aria-label="Go to Add References">Next <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </section>
+
+        <section class="form-section step" data-step="4" aria-labelledby="step4-title">
+          <h2 id="step4-title">Add References (Optional)</h2>
+          <p class="section-info">Include any sources or links to support your content.</p>
+          <div id="links-container"></div>
+          <button type="button" id="add-link-btn" class="add-link-btn" aria-label="Add a reference link">Add a Link <i class="fas fa-plus"></i></button>
+          <div class="form-actions">
+            <button type="button" class="prev-btn" aria-label="Go back to Write Content">Back <i class="fas fa-arrow-left"></i></button>
+            <button type="button" class="submit-btn" aria-label="Preview and Publish">Preview & Publish <i class="fas fa-eye"></i></button>
+          </div>
+        </section>
+      </form>
+    </main>
+
+    <div id="preview-overlay" class="preview-overlay" role="dialog" aria-labelledby="preview-title" aria-modal="true">
+      <div class="preview-content">
+        <h2 id="preview-title">Preview Your Blog Post</h2>
+        <button id="close-preview" class="close-preview" aria-label="Close preview"><i class="fas fa-times"></i></button>
+        <div class="review-section">
+          <h3>Your Information</h3>
+          <p><strong>Name:</strong> <span id="review-name">Not provided</span></p>
+          <p><strong>Email:</strong> <span id="review-email">Not provided</span></p>
+          <p><strong>Social Media:</strong> <span id="review-social">Not provided</span></p>
+        </div>
+        <div class="review-section">
+          <h3>Blog Details</h3>
+          <p><strong>Title:</strong> <span id="review-title">Not provided</span></p>
+          <p><strong>Category:</strong> <span id="review-category">Not provided</span></p>
+          <p><strong>Thumbnail:</strong> <span id="review-image">No image uploaded</span></p>
+        </div>
+        <div class="review-section">
+          <h3>Content</h3>
+          <div id="review-content">No content provided</div>
+        </div>
+        <div class="review-section">
+          <h3>References</h3>
+          <ul id="review-links"><li>No references provided</li></ul>
+        </div>
+        <div class="form-actions">
+          <button type="button" id="edit-btn" class="prev-btn" aria-label="Edit Post">Edit Post <i class="fas fa-edit"></i></button>
+          <button type="button" id="publish-btn" class="submit-btn" aria-label="Publish Now">Publish Now <i class="fas fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div id="alert-overlay" class="alert-overlay" role="dialog" aria-labelledby="alert-message" aria-modal="true">
+      <div class="alert-content">
+        <p id="alert-message"></p>
+        <div class="form-actions">
+          <button type="button" class="alert-btn close" aria-label="Close alert">Close</button>
+          <button type="button" class="alert-btn confirm" aria-label="Confirm action">OK</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      © 2025 SabirBlog. All rights reserved.
+    </footer>
+  </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.4.0/purify.min.js"></script>
+  <script src="js/blog-creator.js"></script>
+  <script src="js/dark-theme.js"></script>
+</body>
+</html>
