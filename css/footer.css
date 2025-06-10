@@ -1,0 +1,150 @@
+:root {
+    /* Light color palette */
+    --bg-color: #eff7ff; /* Off-white background */
+    --text-color: #1f2937; /* Dark gray for readability */
+    --gray-color: #4b5563; /* Medium gray for secondary text */
+    --primary-color: #2563eb; /* Professional blue for accents */
+    --primary-hover: #1d4ed8; /* Darker blue for hover */
+    --border-color: #e5e7eb; /* Light gray border */
+    --input-bg: #ffffff; /* White input background */
+}
+
+
+
+.footer {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 60px 20px 30px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+    color: var(--text-color);
+}
+
+.footer-col h4::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: var(--primary-color);
+}
+
+.footer-col p {
+    color: var(--gray-color);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col ul a {
+    color: var(--gray-color);
+    font-size: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.footer-col ul a:hover {
+    color: var(--text-color);
+    padding-left: 6px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-social a {
+    color: var(--text-color);
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: var(--primary-color);
+}
+
+.footer-newsletter {
+    display: flex;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.footer-newsletter input[type="email"] {
+    flex: 1;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    font-size: 15px;
+    outline: none;
+    max-width: 64% !important;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+}
+
+.footer-newsletter button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    padding: 0 20px;
+    border-radius: 0 6px 6px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-newsletter button:hover {
+    background-color: var(--primary-hover);
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    border-top: 1px solid var(--border-color);
+    font-size: 14px;
+    color: var(--gray-color);
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.footer-links a {
+    color: var(--gray-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--text-color);
+}

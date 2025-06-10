@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SabirBlog offers AI-powered tech insights, programming tutorials, and gadget reviews.">
+    <meta name="keywords" content="AI, programming, tech, tutorials, reviews">
+    <meta property="og:title" content="SabirBlog - Tech Insights & Tutorials">
+    <meta property="og:description" content="Explore cutting-edge AI innovations, programming tutorials, and in-depth gadget reviews.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sabirblog.com">
+    <meta property="og:image" content="/images/ai_image.png">
+    <title>SabirBlog</title>
+    <link rel="preload" href="css/chatbot.css" as="script">
+    <link rel="preload" href="css/styles.css" as="script">
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link rel="stylesheet" href="css/share.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/x-icon" href="images/ai_image.png" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  
+</head>
+<body>
+  <header class="header">
+     <!-- Loading Screen -->
+    <div class="preloader" id="pagePreloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <a href="#home">SabirBlog</a>
+                <div class="ai-tag"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="logo-wrapper">
+        <div class="logo">
+          <a href="#home">SabirBlog</a>
+          <div class="ai-badge">AI-Powered</div>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#category/AI">AI</a></li>
+          <li><a href="#category/Programming">Programming</a></li>
+          <li><a href="#category/Graphic Design">Graphic Design</a></li>
+          <li><a href="#category/myblog">My Blogs</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+    <button class="save-btn-header" aria-label="Saved Articles">
+        <i class="fas fa-bookmark"></i>
+        <span class="save-badge" data-count="0"></span>
+    </button>
+    <head>
+<body>
+  <button class="theme-toggle" aria-label="Toggle Theme">
+    <i class="fas fa-moon dark-icon"></i>
+    <i class="fas fa-sun light-icon" style="display: none;"></i>
+  </button>
+    <button class="search-btn" aria-label="Search">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-times"></i>
+    </button>
+    <button class="menu-toggle" aria-label="Menu">
+        <i class="fas fa-bars icon-menu"></i>
+        <i class="fas fa-times icon-close"></i>
+    </button>
+</div>
+<div>
+</div>
+  </header>
+
+  <div class="search-overlay">
+    <button class="close-search" aria-label="Close search">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="container">
+      <form class="search-form">
+        <input type="text" placeholder="Search articles..." aria-label="Search articles" />
+        <button type="submit" aria-label="Submit search">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+      <div class="search-suggestions">
+        Try: <span>AI trends 2024</span> or <span>Best JavaScript frameworks</span>
+      </div>
+      <div class="search-results-grid"></div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Dynamic content will be injected here -->
+     
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>About SabirBlog</h4>
+          <p>
+            Your source for AI-powered tech insights, programming tutorials, and gadget reviews.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#category/Artificial Intelligence">Artificial Intelligence</a></li>
+            <li><a href="#category/Programming">Programming</a></li>
+            <li><a href="#category/Web Development">Web Development</a></li>
+            <li><a href="#category/Mobile Apps">Mobile Apps</a></li>
+            <li><a href="#category/Gadgets & Tech">Gadgets & Tech</a></li>
+            <li><a href="#category/Graphic Design">Graphic Design</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#write">Write for Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Subscribe</h4>
+          <p>Get the latest posts delivered right to your inbox.</p>
+          <form class="footer-newsletter">
+            <input type="email" placeholder="Your email" aria-label="Email for newsletter" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 SabirBlog. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#terms">Terms of Service</a>
+          <a href="#sitemap">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!--Chatbot-->
+  <button class="chatbot-toggle" aria-label="Toggle chatbot">
+    <i class="fas fa-robot"></i>
+  </button>
+
+  <div class="chatbot-widget">
+    <div class="chatbot-header">
+      <div class="chatbot-avatar"><i class="fas fa-robot"></i></div>
+      <div class="chatbot-info">
+        <h4>TechBot</h4>
+        <p>AI Assistant</p>
+      </div>
+      <button class="chatbot-close" aria-label="Close chatbot">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="chatbot-messages"></div>
+    <div class="quick-replies">
+      <button class="quick-reply">Suggest articles</button>
+      <button class="quick-reply">Search the blog</button>
+      <button class="quick-reply">Latest tech news</button>
+    </div>
+    <div class="chatbot-input">
+      <input type="text" placeholder="Type your message..." aria-label="Chatbot input" />
+      <button class="send-btn" aria-label="Send message">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+<script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/6726f858d4.js" crossorigin="anonymous"></script>
+  <script src="js/load-screen.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/overlays.js"></script>
+  <script src="js/saved.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/dark-theme.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/posts.js"></script>
+  <script src="js/share.js"></script>
+  <script src="js/render-posts.js"></script>
+  <script src="js/blog-creator.js"></script>
+
+  <div class="nav-backdrop"></div>
+</body>
+</html>

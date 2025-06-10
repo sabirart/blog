@@ -1,0 +1,302 @@
+/* Dark Theme for Blog Creator */
+
+/* Dark theme color variables */
+:root {
+    --dark-bg: #171923; /* Rich slate background */
+    --dark-surface: #2a303c; /* Subtle surface for cards and overlays */
+    --dark-text: #f7fafc; /* High-contrast primary text */
+    --dark-text-secondary: #a3bffa; /* Softer secondary text */
+    --dark-accent: #5a9cf6; /* Professional blue accent */
+    --dark-border: #4b5563; /* Neutral border */
+    --dark-button-bg: none; /* Muted button background */
+    --dark-hover: #374151; /* Hover background */
+    --dark-error: #f87171; /* Error color */
+    --dark-success: #34d399; /* Success color */
+}
+
+
+body.dark-theme {
+    background-color: var(--dark-bg);
+}
+
+/* Specific component overrides */
+body.dark-theme .header {
+    background-color: var(--dark-surface);
+}
+
+body.dark-theme .logo a {
+    color: var(--dark-text);
+}
+
+
+/* Blog Creator Specific Styles */
+body.dark-theme .blog-creator-container {
+    background-color: var(--dark-bg);
+}
+
+body.dark-theme .progress-bar {
+    background-color: var(--dark-surface);
+    border-right-color: var(--dark-border);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-theme .progress-step {
+    color: var(--dark-text);
+}
+
+body.dark-theme .progress-step .step-number {
+    background: var(--dark-border);
+    color: var(--dark-text-secondary);
+}
+
+body.dark-theme .progress-step.active .step-number,
+body.dark-theme .progress-step.completed .step-number {
+    background: var(--dark-accent);
+    color: var(--dark-text);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--dark-accent) 20%, transparent);
+}
+
+body.dark-theme .progress-step .step-label {
+    color: var(--dark-text-secondary);
+}
+
+body.dark-theme .progress-step.active .step-label,
+body.dark-theme .progress-step.completed .step-label {
+    color: var(--dark-text);
+}
+
+body.dark-theme .progress-step:not(:last-child)::after {
+    background: var(--dark-border);
+}
+
+body.dark-theme .progress-step.active:not(:last-child)::after,
+body.dark-theme .progress-step.completed:not(:last-child)::after {
+    background: var(--dark-accent);
+}
+
+body.dark-theme .progress-step:hover {
+    background: var(--dark-hover);
+}
+
+body.dark-theme .main-content {
+    background: var(--dark-surface);
+}
+
+body.dark-theme .blog-creator-container h1 {
+    color: var(--dark-accent);
+}
+
+body.dark-theme .subtitle {
+    color: var(--dark-text-secondary);
+}
+
+body.dark-theme .form-section {
+    background: var(--dark-surface);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-theme .form-section h2 {
+    color: var(--dark-accent);
+}
+
+body.dark-theme .section-info {
+    color: var(--dark-text-secondary);
+}
+
+body.dark-theme .form-group label {
+    color: var(--dark-text);
+}
+
+body.dark-theme .form-group input,
+body.dark-theme .form-group select {
+    background: var(--dark-bg);
+    color: var(--dark-text);
+    border-color: var(--dark-border);
+}
+
+body.dark-theme .form-group input:focus,
+body.dark-theme .form-group select:focus {
+    border-color: var(--dark-accent);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--dark-accent) 20%, transparent);
+    background: var(--dark-surface);
+}
+
+body.dark-theme .form-group input:invalid[required]:focus,
+body.dark-theme .form-group select:invalid[required]:focus,
+body.dark-theme .form-group input.invalid,
+body.dark-theme .form-group select.invalid {
+    border-color: var(--dark-error);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--dark-error) 20%, transparent);
+}
+
+body.dark-theme .error-message {
+    color: var(--dark-error);
+}
+
+body.dark-theme .upload-btn,
+body.dark-theme .next-btn,
+body.dark-theme .submit-btn {
+    background: var(--dark-accent);
+    color: var(--dark-text);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-theme .upload-btn:hover:not(:disabled),
+body.dark-theme .next-btn:hover:not(:disabled),
+body.dark-theme .submit-btn:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--dark-accent) 80%, white);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme .prev-btn,
+body.dark-theme .preview-btn {
+    background: var(--dark-border);
+    color: var(--dark-text);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-theme .prev-btn:hover:not(:disabled),
+body.dark-theme .preview-btn:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--dark-border) 80%, white);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme .add-link-btn {
+    border-color: var(--dark-border);
+    color: var(--dark-accent);
+}
+
+body.dark-theme .add-link-btn:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--dark-accent) 20%, transparent);
+    border-color: var(--dark-accent);
+    color: var(--dark-text);
+}
+
+body.dark-theme .image-preview {
+    border-color: var(--dark-border);
+    background: var(--dark-surface);
+}
+
+body.dark-theme .rich-text-toolbar {
+    background: var(--dark-bg);
+    border-color: var(--dark-border);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-theme .format-btn {
+    color: var(--dark-text);
+}
+
+body.dark-theme .format-btn:hover:not(:disabled),
+body.dark-theme .format-btn:focus {
+    background: var(--dark-hover);
+    color: var(--dark-accent);
+}
+
+body.dark-theme .rich-text-editor {
+    background: var(--dark-bg);
+    color: var(--dark-text);
+    border-color: var(--dark-border);
+}
+
+body.dark-theme .rich-text-editor:empty:before {
+    color: var(--dark-text-secondary);
+}
+
+body.dark-theme .rich-text-editor:focus {
+    border-color: var(--dark-accent);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--dark-accent) 20%, transparent);
+}
+
+body.dark-theme .rich-text-editor.invalid {
+    border-color: var(--dark-error);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--dark-error) 20%, transparent);
+}
+
+body.dark-theme .link-item input {
+    border-color: var(--dark-border);
+    background: var(--dark-bg);
+    color: var(--dark-text);
+}
+
+body.dark-theme .link-item button {
+    background: var(--dark-error);
+}
+
+body.dark-theme .link-item button:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--dark-error) 80%, white);
+}
+
+body.dark-theme .preview-overlay {
+    background: rgba(0, 0, 0, 0.9);
+    color: var(--dark-text);
+}
+
+body.dark-theme .preview-content {
+    background: var(--dark-surface);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme .review-section {
+    background: var(--dark-bg);
+    border-color: var(--dark-border);
+}
+
+body.dark-theme .review-section h3,
+body.dark-theme .preview-content h2 {
+    color: var(--dark-accent);
+}
+
+body.dark-theme #review-content,
+body.dark-theme #review-links li {
+    background: var(--dark-surface);
+    border-color: var(--dark-border);
+    color: var(--dark-text);
+}
+
+body.dark-theme #review-links a {
+    color: var(--dark-accent);
+}
+
+body.dark-theme #review-links a:hover {
+    color: var(--dark-text);
+}
+
+body.dark-theme .close-preview {
+    color: var(--dark-text-secondary);
+}
+
+body.dark-theme .close-preview:hover {
+    color: var(--dark-text);
+}
+
+body.dark-theme .alert-overlay {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+body.dark-theme .alert-content {
+    background: var(--dark-surface);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme .alert-content p {
+    color: var(--dark-text);
+}
+
+body.dark-theme .alert-content .alert-btn.confirm {
+    background: var(--dark-accent);
+    color: var(--dark-text);
+}
+
+body.dark-theme .alert-content .alert-btn.close {
+    background: var(--dark-border);
+    color: var(--dark-text);
+}
+
+body.dark-theme .alert-content .alert-btn.confirm:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--dark-accent) 80%, white);
+}
+
+body.dark-theme .alert-content .alert-btn.close:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--dark-border) 80%, white);
+}
