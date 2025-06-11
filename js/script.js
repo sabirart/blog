@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="category-badge" aria-label="Featured Content">Featured</span>
                             <h1>Explore the Future of Technology</h1>
                             <p class="excerpt">Discover cutting-edge AI innovations, programming tutorials, and in-depth gadget reviews.</p>
-                            <a href="/blog-creator.html" class="create-blog-btn" target="_blank" aria-label="Create a Blog for Free">Create a Blog</a>
+                            <a href="blog-creator.html" class="create-blog-btn" target="_blank" aria-label="Create a Blog for Free">Create a Blog</a>
                             <a href="#posts" class="read-more" aria-label="Read more about technology innovations">Read Blogs <i class="fas fa-arrow-right"></i></a>
                      </div>
                 <div class="hero-image">
